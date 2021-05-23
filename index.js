@@ -17,12 +17,12 @@ class Circle {
 }
 
 set area(newCircumference) {
-  return this.radius = newCircumference / (2 * Math.PI);
+  this.radius = newCircumference/ (2 * Math.PI);;
 }
 
 
   get area() {
-   this.radius = newCircumference/ (2 * Math.PI);
+   return this.radius * this.radius * Math.PI;
  }
 
  set area(newArea) {
