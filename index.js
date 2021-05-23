@@ -16,8 +16,8 @@ class Circle {
   return this.radius * 2 * Math.PI;
 }
 
-set area(newCircumference) {
-  this.radius = newCircumference/ (2 * Math.PI);
+set circumference(newCircumference) {
+  this.radius = newCircumference/(2*Math.PI);
 }
 
 
