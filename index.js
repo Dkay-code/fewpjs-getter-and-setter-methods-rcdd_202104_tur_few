@@ -13,20 +13,20 @@ class Circle {
 
 
  get circumference() {
-  return this.diameter * MATH.PI;
+  return this.diameter * Math.PI;
 }
 
 set area(newCircumference) {
-  this.diameter = newCircumference / MATH.PI;
+  this.diameter = newCircumference / Math.PI;
 }
 
 
   get area() {
-   return this.radius * this.radius * MATH.PI;
+   return this.radius * this.radius * Math.PI;
  }
 
  set area(newArea) {
-   this.radius = Math.sqrt(newArea) / MATH.PI;
+   this.radius = Math.sqrt(newArea) / Math.PI;
  }
 
 }
