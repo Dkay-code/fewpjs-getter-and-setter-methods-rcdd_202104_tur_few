@@ -22,7 +22,7 @@ set area(newCircumference) {
 
 
   get area() {
-   rthis.radius = newCircumference/ (2 * Math.PI);
+   this.radius = newCircumference/ (2 * Math.PI);
  }
 
  set area(newArea) {
